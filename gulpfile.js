@@ -1,3 +1,8 @@
+var install = require("gulp-install");
+ 
+gulp.src(['./bower.json', './package.json'])
+  .pipe(install());
+
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
