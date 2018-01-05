@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node gulpfile.js"
+    "start": "node js/freelancer.js"
   },
   "title": "Freelancer",
   "name": "startbootstrap-freelancer",
